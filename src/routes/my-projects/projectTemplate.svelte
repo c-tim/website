@@ -34,7 +34,7 @@
 
 <div class="s-btn">
     
-    <a href={value.url} class = "remove-bg">
+    <a href={value.url} class = "remove-bg" target="_blank">
     <h1 class = "remove-bg title-project">{value.title}</h1>
     <p class = "remove-bg">{value.content}</p>
     </a>

@@ -2,13 +2,24 @@
 	import Navbar from '../navbar.svelte';
 </script>
 
+
+<style>
+
+.centered-resume {
+ 	text-align:left; 
+	width:900px;
+
+}
+
+</style>
+
 <main>
 	<h1 class="title-page underlined">Resume</h1>
-	<div class="center-div">
-		<div class="push-left-div">
+	<div class="centered">
+	<div class="push-left-div centered-resume">
 			<section>
 				<h2 class="underlined spaced-title centered">Formation</h2>
-				<h3 class="">Échange Erasmus a Vigo, en Espagne (septembre 2025 à janvier 2026)</h3>
+				<h3 class="underlined">Échange Erasmus a Vigo, en Espagne (septembre 2025 à janvier 2026)</h3>
 				<p class="indented">Master de sciences de l’information quantique</p>
 				<h3 class="underlined">École d’ingénieur Télécom SudParis (2023 - 2027)</h3>
 				<p class="indented">
@@ -65,10 +76,12 @@
 				</div>
 		
 				<h2 class="underlined spaced-front centered">Langues</h2>
-				<div class="grid-dense">
-					<div class="grid-dense__item">Programmation (Java, C, C#)</div>
-					<div class="grid-dense__item is-wide">Développement web (HTML, PHP, JavaScript)</div>
-					<div class="grid-dense__item">Analyse de données (Python, SQL)</div>
+				<div class="centered ">
+					<span class="flex-langue-container">
+						<div class="lang-element">Anglais B2</div>
+						<div class="lang-element">Espagnol B1</div>
+						<div class="lang-element">Italien A2</div>
+					</span>
 				</div>
 			</section>
 		</div>
