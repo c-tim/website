@@ -4,13 +4,26 @@
 </script>
 
 <main class="html">
-	<div>
-		<p>
-			Hi, I'm Timothée Cuq, a french student in computer science in Telecom SudParis. I am currently
-			studying game development, but I also did projects in data science, web developement. During
-			my free time, I play music, go on hikes and developp projects. You can check them out on <a href="./my-projects">this
-			page</a>.
-		</p>
+	<div class="centered">
+		<div class="centered framed">
+			<h2 class="centered">Hi, Welcome to my website !</h2>
+			<div>
+				I'm a french student in computer science, currently studying game development at Telecom
+				Sudparis. <br>I am currently looking for an internship at the end of my engineering studies. My
+				resume is avalaible in the menu.<br>
+				
+				
+				<p>
+					Also check out my project on <a href="./my-projects"
+						>this page</a
+					>.
+				</p>
+			</div>
+
+			<div class="centered underlined">
+				<h2>Note on this website</h2>
+			</div>
+		</div>
 	</div>
 </main>
 

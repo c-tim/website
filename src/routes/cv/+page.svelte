@@ -5,18 +5,14 @@
 
 <style>
 
-.centered-resume {
- 	text-align:left; 
-	width:900px;
 
-}
 
 </style>
 
 <main>
 	<h1 class="title-page underlined">Resume</h1>
 	<div class="centered">
-	<div class="push-left-div centered-resume">
+	<div class="push-left-div framed">
 			<section>
 				<h2 class="underlined spaced-title centered">Formation</h2>
 				<h3 class="underlined">Échange Erasmus a Vigo, en Espagne (septembre 2025 à janvier 2026)</h3>
@@ -78,9 +74,9 @@
 				<h2 class="underlined spaced-front centered">Langues</h2>
 				<div class="centered ">
 					<span class="flex-langue-container">
-						<div class="lang-element">Anglais B2</div>
-						<div class="lang-element">Espagnol B1</div>
-						<div class="lang-element">Italien A2</div>
+						<div class="lang-element centered">Anglais B2</div>
+						<div class="lang-element centered">Espagnol B1 </div>
+						<div class="lang-element centered">Italien A2</div>
 					</span>
 				</div>
 			</section>
